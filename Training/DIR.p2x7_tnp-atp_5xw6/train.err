@@ -1,0 +1,797 @@
+2024-07-10 12:46:47.107405: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:46:47.107396: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:46:47.107400: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:46:47.107396: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:46:47.107392: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:46:47.107393: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:46:47.416173: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:47.416170: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:47.416164: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:47.416159: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:47.416164: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:47.416162: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:50.010149: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:46:50.010195: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:46:50.010146: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:46:50.010205: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:46:50.010143: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:46:50.010196: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:46:50.010139: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:46:50.010204: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:46:50.010141: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:46:50.010206: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:46:50.010143: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:46:50.010202: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:46:50.473540: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:46:50.473533: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:46:50.473533: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:46:50.473535: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:46:50.473535: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:46:50.473534: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:46:51.797531: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:51.797530: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:51.797533: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:51.797532: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:51.797529: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:51.797531: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:46:51.835762: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:46:51.835766: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:46:51.835752: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:46:51.835766: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:46:51.835769: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:46:51.835763: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:47:00.911461: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:47:00.911457: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:47:00.911456: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:47:00.911457: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:47:00.911457: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:47:00.911456: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:47:32.711471: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.711467: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.711467: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.711473: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.711467: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.711467: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.746909: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.746918: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.746919: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.746924: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.746915: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:32.746918: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031526: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031555: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031522: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031544: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031519: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031542: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031516: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031541: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031515: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031541: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031518: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:33.031542: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:47:42.841489: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:47:42.841492: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:47:42.841494: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:47:42.841498: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:47:42.841488: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:47:42.841486: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:47:42.871256: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:47:42.871280: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:47:42.871251: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:47:42.871272: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:47:42.871248: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:47:42.871270: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:47:42.871252: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:47:42.871272: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:47:42.871253: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:47:42.871275: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:47:42.871251: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:47:42.871271: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:47:43.975379: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.975370: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.975381: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.975378: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.975374: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.975375: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.978415: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.978417: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.978420: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.978418: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.978422: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.978419: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.994509: I external/xla/xla/service/service.cc:168] XLA service 0x5587b1390110 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:47:43.994505: I external/xla/xla/service/service.cc:168] XLA service 0x55a8ba97d980 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:47:43.994523: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:47:43.994518: I external/xla/xla/service/service.cc:168] XLA service 0x55b6ea844d00 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:47:43.994537: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:47:43.994525: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:47:43.994523: I external/xla/xla/service/service.cc:168] XLA service 0x556fdd03d0b0 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:47:43.994543: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:47:43.994523: I external/xla/xla/service/service.cc:168] XLA service 0x56473b4e1bd0 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:47:43.994544: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:47:43.994522: I external/xla/xla/service/service.cc:168] XLA service 0x5603f0484d60 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:47:43.994543: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:47:43.996108: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.996119: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.996117: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.996111: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.996111: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.996113: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:47:43.996415: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.996422: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.996421: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.996421: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.996423: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.996487: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:47:43.996852: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:47:43.996886: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:47:43.996869: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:47:43.996882: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:47:43.996899: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:47:43.996880: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:47:43.996897: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:47:43.996902: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:47:43.996941: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:47:43.996964: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:47:43.997404: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:47:43.997433: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:47:44.006612: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:47:44.006609: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:47:44.006608: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:47:44.006613: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:47:44.006609: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:47:44.006616: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:49:07.817886: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:49:08.006616: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:49:08.021389: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:49:08.217504: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:49:08.221929: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:49:08.506433: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2024-07-10 12:49:16.327820: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:49:16.398779: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:49:17.432698: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:49:17.448743: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:49:17.533876: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:49:17.553246: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:49:28.044069: I tensorflow/core/framework/local_rendezvous.cc:421] Local rendezvous recv item cancelled. Key hash: 1329980448143305031
+2024-07-10 12:49:28.044112: I tensorflow/core/framework/local_rendezvous.cc:421] Local rendezvous recv item cancelled. Key hash: 7971735559523323249
+2024-07-10 12:49:28.044091: I tensorflow/core/framework/local_rendezvous.cc:421] Local rendezvous recv item cancelled. Key hash: 16267476173784156927
+2024-07-10 12:49:28.044088: I tensorflow/core/framework/local_rendezvous.cc:421] Local rendezvous recv item cancelled. Key hash: 17520929250870873083
+[2024-07-10 12:51:11.967275: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:52:11.967868: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:53:11.968299: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:54:11.969352: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:55:11.970192: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:56:11.971245: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:57:11.971460: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:58:11.971667: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 12:59:11.972534: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:00:11.972767: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:01:11.972921: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:02:11.972980: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:03:11.973135: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:04:11.973756: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:05:11.974042: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:06:11.974161: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:07:11.975163: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:08:11.975434: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:09:11.975942: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:10:11.976380: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:11:11.976756: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:12:11.977312: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:13:11.977543: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:14:11.977939: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:15:11.978727: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:16:11.979026: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:17:11.979366: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:18:11.979437: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:19:11.979638: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:20:11.980074: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:21:11.980704: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:22:11.981739: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:23:11.982813: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:24:11.982884: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:25:11.983030: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:26:11.983461: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:27:11.983677: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:28:11.984698: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:29:11.985751: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:30:11.986738: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:31:11.987698: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:32:11.988704: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:33:11.988870: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:34:11.989974: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:35:11.990192: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:36:11.991253: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:37:11.992085: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:38:11.992873: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:39:11.993761: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:40:11.994824: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:41:11.995716: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:42:11.996535: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:43:11.997357: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:44:11.997754: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:45:11.997863: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:46:11.998622: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:47:11.999145: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:48:11.999466: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:49:11.999694: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:50:12.   607: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:51:12.   924: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:52:12.  1806: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:53:12.  2399: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:54:12.  2652: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:55:12.  3720: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:56:12.  4487: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:57:12.  5056: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:58:12.  5328: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 13:59:12.  6221: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:00:12.  6336: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:01:12.  7222: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:02:12.  8298: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:03:12.  9329: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:04:12. 10183: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:05:12. 10398: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:06:12. 11463: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:07:12. 12079: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+[2024-07-10 14:08:12. 12487: W /opt/aurora/24.086.0/frameworks/intel-optimization-for-horovod/horovod/common/stall_inspector.cc:107] One or more tensors were submitted to be reduced, gathered or broadcasted by subset of ranks and are waiting for remainder of ranks for more than 60 seconds. This may indicate that different ranks are trying to submit different tensors or that only subset of ranks is submitting tensors, which will cause deadlock. 
+Missing ranks:
+0: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+1: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+2: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+3: [PartitionedCall/DistributedAdam_Allreduce/cond_1/then/_105/DistributedAdam_Allreduce/cond_1/HorovodAllgather_grads_4_0]
+4: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+5: [PartitionedCall/DistributedAdam_Allreduce/cond/then/_93/DistributedAdam_Allreduce/cond/HorovodAllgather_grads_1_0]
+x1921c3s2b0n0: rank -1 died from signal 9

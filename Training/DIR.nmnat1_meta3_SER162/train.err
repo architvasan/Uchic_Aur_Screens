@@ -1,0 +1,175 @@
+2024-07-10 12:40:52.574601: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:40:52.574660: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:40:52.574655: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:40:52.574653: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:40:52.574670: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:40:52.574657: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-10 12:40:52.581085: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.581399: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.581426: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.581500: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.581498: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.581509: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.615532: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:40:52.615570: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:40:52.617147: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:40:52.617151: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:40:52.617185: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:40:52.617182: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:40:52.617192: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:40:52.617239: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:40:52.617163: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:40:52.617191: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:40:52.617190: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-10 12:40:52.617227: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-10 12:40:52.618735: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:40:52.620156: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:40:52.620204: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:40:52.620240: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:40:52.620233: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:40:52.620216: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-10 12:40:52.629372: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.629597: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:40:52.631643: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.631650: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.631657: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.631673: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.631671: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-10 12:40:52.631867: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:40:52.631881: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:40:52.631884: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:40:52.631880: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:40:52.631875: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-10 12:40:55.030847: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:40:55.030845: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:40:55.030836: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:40:55.030840: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:40:55.030841: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:40:55.031167: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-10 12:40:57.454282: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.454677: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.457068: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.457081: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463125: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463171: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463234: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463259: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463393: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463434: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463540: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.463551: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465319: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465333: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465433: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465457: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465472: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465448: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465464: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.465480: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.466610: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.466775: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.467791: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.467804: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-10 12:40:57.670511: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:40:57.673233: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:40:57.673253: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:40:57.676307: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:40:57.676373: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:40:57.676384: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:40:57.676395: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:40:57.676381: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-10 12:40:57.683077: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:40:57.683099: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:40:57.683156: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:40:57.683178: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:40:57.684292: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:40:57.684303: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:40:57.684326: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:40:57.684313: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:40:57.685079: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-10 12:40:57.685102: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-10 12:40:57.695037: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.695374: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.696153: I external/xla/xla/service/service.cc:168] XLA service 0x558ef834fdd0 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:40:57.696166: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:40:57.696538: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.696864: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.697176: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:40:57.697191: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:40:57.697332: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:40:57.704860: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.704948: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.705182: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.705278: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.705802: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.705899: I external/xla/xla/service/service.cc:168] XLA service 0x55bf328b3980 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:40:57.705907: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.705912: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:40:57.706015: I external/xla/xla/service/service.cc:168] XLA service 0x55f84fc19c80 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:40:57.706027: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:40:57.706122: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.706229: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.706282: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.706386: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.706556: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.706583: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.706691: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.706808: I external/xla/xla/service/service.cc:168] XLA service 0x55dcc705fab0 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:40:57.706822: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:40:57.706881: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:159] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.707007: I external/xla/xla/service/service.cc:168] XLA service 0x5632cf866b70 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:40:57.707020: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:40:57.707045: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:40:57.707059: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:40:57.707013: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:40:57.707034: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:40:57.707172: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:40:57.707185: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:40:57.707180: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.707382: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.707475: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.707588: I external/xla/xla/service/service.cc:168] XLA service 0x559cb6ab4950 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-10 12:40:57.707601: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-10 12:40:57.707682: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.707807: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:40:57.707821: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:40:57.707948: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:40:57.707970: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-10 12:40:57.708271: I itex/core/devices/gpu/itex_gpu_runtime.cc:155] number of sub-devices is zero, expose root device.
+2024-07-10 12:40:57.708497: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:40:57.708521: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:40:57.708601: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-10 12:40:57.708615: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-10 12:40:57.708661: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:40:57.708746: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-10 12:42:52.774658: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2024-07-10 12:42:54.443488: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:42:54.706977: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:42:54.808040: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:42:55.056032: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+2024-07-10 12:42:55.244241: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2024-07-10 12:43:01.226077: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:43:02.823533: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:43:03.107154: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:43:03.236002: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:43:03.520384: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+2024-07-10 12:43:03.768779: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1293s vs `on_train_batch_end` time: 0.1821s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1307s vs `on_train_batch_end` time: 0.1824s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1324s vs `on_train_batch_end` time: 0.1831s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1323s vs `on_train_batch_end` time: 0.1824s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1327s vs `on_train_batch_end` time: 0.1831s). Check your callbacks.
+WARNING:tensorflow:Callback method `on_train_batch_end` is slow compared to the batch time (batch time: 0.1329s vs `on_train_batch_end` time: 0.1831s). Check your callbacks.
+x1921c3s0b0n0: rank -1 died from signal 9

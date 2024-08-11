@@ -1,0 +1,576 @@
+2024:07:09-18:09:13:(30932) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30925) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30924) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30923) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30933) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30931) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30929) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30926) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30928) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30930) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30927) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+2024:07:09-18:09:13:(30922) |CCL_WARN| MPI was initialized externally, CCL-MPI specific environment is ignored
+I am rank 11 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 9 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Epoch 1/1000
+I am rank 5 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Epoch 1/1000
+I am rank 2 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 8 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Epoch 1/1000
+Epoch 1/1000
+Epoch 1/1000
+I am rank 1 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 0 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 6 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 3 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 7 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+I am rank 4 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Epoch 1/1000
+Epoch 1/1000
+I am rank 10 of 12
+[PhysicalDevice(name='/physical_device:XPU:0', device_type='XPU')]
+Model: "model"
+__________________________________________________________________________________________________
+ Layer (type)                Output Shape                 Param #   Connected to                  
+==================================================================================================
+ input_1 (InputLayer)        [(None, 45)]                 0         []                            
+                                                                                                  
+ token_and_position_embeddi  (None, 45, 128)              406656    ['input_1[0][0]']             
+ ng (TokenAndPositionEmbedd                                                                       
+ ing)                                                                                             
+                                                                                                  
+ transformer_block (Transfo  (None, 45, 128)              1417984   ['token_and_position_embedding
+ rmerBlock)                                                         [0][0]',                      
+                                                                     'transformer_block[0][0]',   
+                                                                     'transformer_block[1][0]',   
+                                                                     'transformer_block[2][0]',   
+                                                                     'transformer_block[3][0]']   
+                                                                                                  
+ reshape (Reshape)           (None, 1, 5760)              0         ['transformer_block[4][0]']   
+                                                                                                  
+ dropout_2 (Dropout)         (None, 1, 5760)              0         ['reshape[0][0]']             
+                                                                                                  
+ dense_2 (Dense)             (None, 1, 1024)              5899264   ['dropout_2[0][0]']           
+                                                                                                  
+ dropout_3 (Dropout)         (None, 1, 1024)              0         ['dense_2[0][0]']             
+                                                                                                  
+ dense_3 (Dense)             (None, 1, 256)               262400    ['dropout_3[0][0]']           
+                                                                                                  
+ dropout_4 (Dropout)         (None, 1, 256)               0         ['dense_3[0][0]']             
+                                                                                                  
+ dense_4 (Dense)             (None, 1, 64)                16448     ['dropout_4[0][0]']           
+                                                                                                  
+ dropout_5 (Dropout)         (None, 1, 64)                0         ['dense_4[0][0]']             
+                                                                                                  
+ dense_5 (Dense)             (None, 1, 16)                1040      ['dropout_5[0][0]']           
+                                                                                                  
+ dropout_6 (Dropout)         (None, 1, 16)                0         ['dense_5[0][0]']             
+                                                                                                  
+ dense_6 (Dense)             (None, 1, 1)                 17        ['dropout_6[0][0]']           
+                                                                                                  
+==================================================================================================
+Total params: 8003809 (30.53 MB)
+Trainable params: 8003809 (30.53 MB)
+Non-trainable params: 0 (0.00 Byte)
+__________________________________________________________________________________________________
+Epoch 1/1000
+Epoch 1/1000
+Epoch 1/1000
+Epoch 1/1000
+Epoch 1/1000

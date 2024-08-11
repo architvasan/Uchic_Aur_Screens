@@ -1,0 +1,73 @@
+/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/pandas/core/computation/expressions.py:21: UserWarning: Pandas requires version '2.8.4' or newer of 'numexpr' (version '2.7.3' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+2024-07-17 18:19:28.056915: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-17 18:19:28.060351: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-17 18:19:28.094995: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-17 18:19:28.095028: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-17 18:19:28.096604: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-17 18:19:28.104420: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-17 18:19:28.104622: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-17 18:19:32.316883: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-17 18:19:35.248235: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-17 18:19:35.248443: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-17 18:19:35.249846: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-17 18:19:35.249859: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-17 18:19:35.535265: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-17 18:19:35.537600: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-17 18:19:35.537629: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-17 18:19:35.558794: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-17 18:19:35.577297: I external/xla/xla/service/service.cc:168] XLA service 0x55cb0f2fd0c0 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-17 18:19:35.577386: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577393: I external/xla/xla/service/service.cc:176]   StreamExecutor device (1): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577398: I external/xla/xla/service/service.cc:176]   StreamExecutor device (2): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577402: I external/xla/xla/service/service.cc:176]   StreamExecutor device (3): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577406: I external/xla/xla/service/service.cc:176]   StreamExecutor device (4): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577410: I external/xla/xla/service/service.cc:176]   StreamExecutor device (5): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577413: I external/xla/xla/service/service.cc:176]   StreamExecutor device (6): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577417: I external/xla/xla/service/service.cc:176]   StreamExecutor device (7): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577420: I external/xla/xla/service/service.cc:176]   StreamExecutor device (8): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577424: I external/xla/xla/service/service.cc:176]   StreamExecutor device (9): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577428: I external/xla/xla/service/service.cc:176]   StreamExecutor device (10): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577432: I external/xla/xla/service/service.cc:176]   StreamExecutor device (11): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-17 18:19:35.577854: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-17 18:19:35.595526: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-17 18:19:35.595564: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-17 18:19:35.595594: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 1 for BFCAllocator.
+2024-07-17 18:19:35.595606: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 2 for BFCAllocator.
+2024-07-17 18:19:35.595612: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 3 for BFCAllocator.
+2024-07-17 18:19:35.595619: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 4 for BFCAllocator.
+2024-07-17 18:19:35.595624: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 5 for BFCAllocator.
+2024-07-17 18:19:35.595631: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 6 for BFCAllocator.
+2024-07-17 18:19:35.595638: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 7 for BFCAllocator.
+2024-07-17 18:19:35.595642: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 8 for BFCAllocator.
+2024-07-17 18:19:35.595648: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 9 for BFCAllocator.
+2024-07-17 18:19:35.595653: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 10 for BFCAllocator.
+2024-07-17 18:19:35.595659: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 11 for BFCAllocator.
+2024-07-17 18:19:35.697588: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+2024-07-17 18:21:05.040495: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 12 TensorFlow NextPluggableDevices. Physical device type: XPU
+Traceback (most recent call last):
+  File "/lus/gila/projects/candle_aesp_CNDA/avasan/Workflows/Uchic_Aur_Screens/Training/DIR.p2x7_tnp-atp_5xw6/../surrogate_training/train_model.rstrt.py", line 67, in <module>
+    model = ModelArchitecture(hyper_params).call()
+  File "/lus/gila/projects/candle_aesp_CNDA/avasan/Workflows/Uchic_Aur_Screens/Training/surrogate_training/ST_funcs/smiles_regress_transformer_funcs.py", line 326, in call
+    x = self.embedding_layer(self.inputs)
+  File "/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/tensorflow/python/autograph/impl/api.py", line 693, in wrapper
+    raise e.ag_error_metadata.to_exception(e)
+tensorflow.python.framework.errors_impl.InternalError: Exception encountered when calling layer "token_and_position_embedding" (type TokenAndPositionEmbedding).
+
+in user code:
+
+    File "/lus/gila/projects/candle_aesp_CNDA/avasan/Workflows/Uchic_Aur_Screens/Training/surrogate_training/ST_funcs/smiles_regress_transformer_funcs.py", line 113, in call  *
+        positions = self.pos_emb(positions)
+    File "/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/keras/src/utils/traceback_utils.py", line 70, in error_handler  **
+        raise e.with_traceback(filtered_tb) from None
+    File "/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/keras/src/backend.py", line 2100, in random_uniform
+        return tf.random.stateless_uniform(
+
+    InternalError: {{function_node __wrapped__StatelessRandomUniformV2_device_/job:localhost/replica:0/task:0/device:XPU:0}} StatelessRandomUniformV2 op executes failed with error message: Native API failed. Native API returns: -5 (PI_ERROR_OUT_OF_RESOURCES) -5 (PI_ERROR_OUT_OF_RESOURCES) [Op:StatelessRandomUniformV2] name: 
+
+
+Call arguments received by layer "token_and_position_embedding" (type TokenAndPositionEmbedding):
+  • x=tf.Tensor(shape=(None, 45), dtype=float32)

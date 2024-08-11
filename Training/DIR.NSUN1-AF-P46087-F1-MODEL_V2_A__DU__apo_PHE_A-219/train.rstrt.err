@@ -1,0 +1,54 @@
+/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/pandas/core/computation/expressions.py:21: UserWarning: Pandas requires version '2.8.4' or newer of 'numexpr' (version '2.7.3' currently installed).
+  from pandas.core.computation.check import NUMEXPR_INSTALLED
+2024-07-15 17:01:34.836104: I tensorflow/core/util/port.cc:113] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-07-15 17:01:35.235464: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-15 17:01:38.167679: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:9261] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2024-07-15 17:01:38.171342: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:607] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2024-07-15 17:01:38.689976: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1515] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2024-07-15 17:01:39.967027: I external/local_tsl/tsl/cuda/cudart_stub.cc:31] Could not find cuda drivers on your machine, GPU will not be used.
+2024-07-15 17:01:40.003918: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI AVX512_BF16 AVX_VNNI AMX_TILE AMX_INT8 AMX_BF16 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-07-15 17:01:51.091634: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2024-07-15 17:02:22.265829: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /tensorflow/core/bfc_allocator_delay. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-15 17:02:22.303874: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /xla/service/gpu/compiled_programs_count. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-15 17:02:22.580819: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_executions. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-15 17:02:22.580843: W external/local_tsl/tsl/lib/monitoring/collection_registry.cc:81] Trying to register 2 metrics with the same name: /jax/pjrt/pjrt_executable_execution_time_usecs. The old value will be erased in order to register a new one. Please check if you link the metric more than once, or if the name is already used by other metrics.
+2024-07-15 17:02:28.113438: I itex/core/wrapper/itex_gpu_wrapper.cc:38] Intel Extension for Tensorflow* GPU backend is loaded.
+2024-07-15 17:02:28.133568: I external/local_xla/xla/pjrt/pjrt_api.cc:67] PJRT_Api is set for device type xpu
+2024-07-15 17:02:28.133591: I external/local_xla/xla/pjrt/pjrt_api.cc:72] PJRT plugin for XPU has PJRT API version 0.33. The framework PJRT API version is 0.34.
+2024-07-15 17:02:29.109602: I external/intel_xla/xla/stream_executor/sycl/sycl_gpu_runtime.cc:134] Selected platform: Intel(R) Level-Zero
+2024-07-15 17:02:29.141910: I external/xla/xla/service/service.cc:168] XLA service 0x563fe5c36f10 initialized for platform SYCL (this does not guarantee that XLA will be used). Devices:
+2024-07-15 17:02:29.141998: I external/xla/xla/service/service.cc:176]   StreamExecutor device (0): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142004: I external/xla/xla/service/service.cc:176]   StreamExecutor device (1): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142008: I external/xla/xla/service/service.cc:176]   StreamExecutor device (2): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142012: I external/xla/xla/service/service.cc:176]   StreamExecutor device (3): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142016: I external/xla/xla/service/service.cc:176]   StreamExecutor device (4): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142019: I external/xla/xla/service/service.cc:176]   StreamExecutor device (5): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142023: I external/xla/xla/service/service.cc:176]   StreamExecutor device (6): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142027: I external/xla/xla/service/service.cc:176]   StreamExecutor device (7): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142030: I external/xla/xla/service/service.cc:176]   StreamExecutor device (8): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142034: I external/xla/xla/service/service.cc:176]   StreamExecutor device (9): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142038: I external/xla/xla/service/service.cc:176]   StreamExecutor device (10): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.142041: I external/xla/xla/service/service.cc:176]   StreamExecutor device (11): Intel(R) Data Center GPU Max 1550, <undefined>
+2024-07-15 17:02:29.143748: I itex/core/devices/gpu/itex_gpu_runtime.cc:130] Selected platform: Intel(R) Level-Zero
+2024-07-15 17:02:29.159600: I external/intel_xla/xla/pjrt/se_xpu_pjrt_client.cc:97] Using BFC allocator.
+2024-07-15 17:02:29.159639: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 0 for BFCAllocator.
+2024-07-15 17:02:29.161228: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 1 for BFCAllocator.
+2024-07-15 17:02:29.161265: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 2 for BFCAllocator.
+2024-07-15 17:02:29.161273: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 3 for BFCAllocator.
+2024-07-15 17:02:29.161281: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 4 for BFCAllocator.
+2024-07-15 17:02:29.161285: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 5 for BFCAllocator.
+2024-07-15 17:02:29.161297: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 6 for BFCAllocator.
+2024-07-15 17:02:29.161302: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 7 for BFCAllocator.
+2024-07-15 17:02:29.161308: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 8 for BFCAllocator.
+2024-07-15 17:02:29.161315: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 9 for BFCAllocator.
+2024-07-15 17:02:29.161320: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 10 for BFCAllocator.
+2024-07-15 17:02:29.161326: I external/xla/xla/pjrt/gpu/gpu_helpers.cc:106] XLA backend allocating 61847529062 bytes on device 11 for BFCAllocator.
+2024-07-15 17:02:29.266797: I external/local_xla/xla/pjrt/pjrt_c_api_client.cc:119] PjRtCApiClient created.
+/lus/gila/projects/candle_aesp_CNDA/avasan/envs/sst_2024/lib/python3.9/site-packages/numpy/core/fromnumeric.py:57: FutureWarning: 'Series.swapaxes' is deprecated and will be removed in a future version. Please use 'Series.transpose' instead.
+  return bound(*args, **kwds)
+2024-07-15 17:05:58.532711: I tensorflow/core/common_runtime/next_pluggable_device/next_pluggable_device_factory.cc:118] Created 1 TensorFlow NextPluggableDevices. Physical device type: XPU
+WARNING:absl:Skipping variable loading for optimizer 'Adam', because it has 1 variables whereas the saved optimizer has 57 variables. 
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+WARNING:tensorflow:`epsilon` argument is deprecated and will be removed, use `min_delta` instead.
+2024-07-15 17:06:04.546586: I tensorflow/core/grappler/optimizers/custom_graph_optimizer_registry.cc:117] Plugin optimizer for device_type XPU is enabled.

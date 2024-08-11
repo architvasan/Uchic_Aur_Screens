@@ -1,0 +1,26 @@
+{
+    "general": {
+        "use_mpi": true,
+        "batch_size": 64,
+        "cutoff": 9
+    },
+
+    "inference_data": {
+        "data_dir": "/lus/grand/projects/datascience/avasan/Data/descriptors-ob3",
+        "databases": ["BDB", "CAS", "CHM", "DBK", "DCL", "DUD", "E15", "EDB", "EMO", "ENA", "FFI", "G13", "G17", "HOP", "LIT", "MCU", "MOS", "PCH.incomplete", "QM9", "REP", "SAV.incomplete", "SUR", "ZIN"]
+    },
+    
+    "tokenization": {
+        "vocab_size": 3132,
+        "maxlen": 45,
+        "tokenizer": {
+            "category": "smilespair",
+            "spe_file": "Vocab_Files/SPE_ChEMBL.txt",
+            "vocab_file": "Vocab_Files/vocab_spe.txt"
+        }
+    },
+
+    "model": {
+        "path": "ST_Model"
+    }
+}
